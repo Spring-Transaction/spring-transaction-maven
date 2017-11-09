@@ -1,4 +1,4 @@
-package com.zetainteractive.security.rowmapper;
+package com.sapring.transaction.security.rowmapper;
 
 
 import java.io.IOException;
@@ -15,13 +15,13 @@ import org.springframework.jdbc.core.RowMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zetainteractive.security.bo.MFAUserImage;
-import com.zetainteractive.security.bo.MFAUserOTP;
-import com.zetainteractive.security.bo.MFAUserQuestionnaire;
-import com.zetainteractive.security.bo.UserBO;
-import com.zetainteractive.security.bo.UserInfo;
-import com.zetainteractive.security.bo.UserNotification;
-import com.zetainteractive.security.controller.SecurityController;
+import com.sapring.transaction.security.bo.MFAUserImage;
+import com.sapring.transaction.security.bo.MFAUserOTP;
+import com.sapring.transaction.security.bo.MFAUserQuestionnaire;
+import com.sapring.transaction.security.bo.UserBO;
+import com.sapring.transaction.security.bo.UserInfo;
+import com.sapring.transaction.security.bo.UserNotification;
+import com.sapring.transaction.security.controller.SecurityController;
 
 public class UserRowMapper implements RowMapper<UserBO> {
 

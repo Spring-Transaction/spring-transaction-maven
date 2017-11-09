@@ -1,4 +1,4 @@
-package com.zetainteractive.security;
+package com.sapring.transaction.security;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -12,7 +12,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.zetainteractive.security.bo.UserBO;
+import com.sapring.transaction.security.bo.UserBO;
 
 /**
  * Handles requests for the application home page.

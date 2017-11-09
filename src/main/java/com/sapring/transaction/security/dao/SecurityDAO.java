@@ -1,8 +1,8 @@
-package com.zetainteractive.security.dao;
+package com.sapring.transaction.security.dao;
 
 import java.util.List;
 
-import com.zetainteractive.security.bo.UserBO;
+import com.sapring.transaction.security.bo.UserBO;
 
 public interface SecurityDAO {
 	long	saveUser(UserBO userBO);

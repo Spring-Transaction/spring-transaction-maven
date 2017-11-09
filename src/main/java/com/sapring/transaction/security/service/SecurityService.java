@@ -1,8 +1,8 @@
-package com.zetainteractive.security.service;
+package com.sapring.transaction.security.service;
 
 import java.util.List;
 
-import com.zetainteractive.security.bo.UserBO;
+import com.sapring.transaction.security.bo.UserBO;
 
 public interface SecurityService {
 	long	saveUser(UserBO userBO);

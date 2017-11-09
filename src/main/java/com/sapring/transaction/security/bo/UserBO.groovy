@@ -1,4 +1,4 @@
-package com.zetainteractive.security.bo
+package com.sapring.transaction.security.bo
 
 import org.springframework.stereotype.Component
 
